@@ -7,7 +7,7 @@ const local = {
   carryLength: 0
 };
 
-const onMouseDown = () => {
+const onMouseDown = () => { 
   local.path = new paper.Path();
   local.path.fillColor = store.state.brushArgs.color;
 };
